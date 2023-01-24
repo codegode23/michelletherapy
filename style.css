@@ -10,12 +10,13 @@
     text-decoration: none;
 }
 
+/*Header Section Starts*/
 header{
 border: 1px solid black;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: .7vw;
+padding: 1vw;
 }
 
 .logo{
@@ -77,3 +78,48 @@ padding: .7vw;
     }
 }
 
+@media screen and (max-width: 350px) {
+    .logo{
+        font-size: 18px;
+    }
+}
+
+
+/*Landing Section Starts*/
+
+#land{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(imgs/hm.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.land .land-content{
+    width: 53%;
+    border: 1px solid black;
+    padding: 1vw;
+    transform: translateY(50%);
+    align-items: center;
+}
+
+.land .land-content h1{
+    padding: 1vw;
+    background: #fff;
+    width: 50%;
+    letter-spacing: 1vw;
+    font-size: 2vw;
+    margin-left: 10%;
+}
+
+.land .land-content h4{
+    padding: 1vw;
+    background: #fff;
+    width: 80%;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10%;
+}
