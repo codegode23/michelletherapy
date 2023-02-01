@@ -153,3 +153,90 @@ padding: 1vw;
 }
 
 }
+
+@media screen and (max-width:400px) {
+    #land{
+        min-height: 40vh;
+}
+}
+
+
+/*Services Section*/
+
+#services{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(imgs/hm2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.services .serv-container{
+    position: absolute;
+    width: 100%;
+    padding: 1vw;
+    align-items: center;
+    top: 20%;
+}
+
+.services .serv-container h1{
+    padding: 1vw;
+    background: #fff;
+    width: 36vw;
+    letter-spacing: 1vw;
+    font-size: 4vw;
+    margin-left: 2vw;
+}
+
+.services .serv-container h4{
+    padding: 1vw;
+    background: #fff;
+    width: 95vw;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    font-size: 2.4vw;
+    font-weight: 300;
+    margin-left: 2vw;
+}
+
+
+@media screen and (max-width:730px) {
+    
+    .services .serv-container{
+        width: 100%;
+        top: 40%;
+    }
+    
+    .services .serv-container h1{
+        padding: 1vw;
+        background: #fff;
+        width: 60%;
+        letter-spacing: 1vw;
+        font-size: 6vw;
+        margin-left: 2vw;
+    }
+    
+    .services .serv-container h4{
+        padding: 1vw;
+        background: #fff;
+        width: 94%;
+        margin-top: 2%;
+        letter-spacing: 1px;
+        font-size: 4.5vw;
+        font-weight: 300;
+        margin-left: 2vw;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    #services{
+        min-height: 45vh;
+}
+}
